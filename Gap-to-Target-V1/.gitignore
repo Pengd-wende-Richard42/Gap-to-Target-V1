@@ -1,0 +1,37 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+Thumbs.db
+
+# Reproducible generated files
+data/processed/*
+!data/processed/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# Selected publication additions retained in version control
+!outputs/figures/
+outputs/figures/*
+!outputs/figures/paris/
+outputs/figures/paris/*
+!outputs/figures/paris/Appendix/
+outputs/figures/paris/Appendix/*
+!outputs/figures/paris/Appendix/Appendix_Gap_by_Detailed_Region.png
+!outputs/figures/paris/Diagnostics/
+outputs/figures/paris/Diagnostics/*
+!outputs/figures/paris/Diagnostics/detailed_region_classification.csv
+!outputs/figures/paris/Diagnostics/detailed_region_summary.csv
+
+# The interactive application is maintained in a separate repository
+dashboard/
+.r-library/
+run_dashboard.bat
+deploy_dashboard.bat
+deploy.R
+rsconnect/
+
+# Temporary files
+*.tmp
+~$*

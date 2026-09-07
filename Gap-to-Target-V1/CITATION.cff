@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this replication package, please cite the associated paper."
+title: "Gap-to-Target replication package for Kyoto and Paris NDC cycles"
+type: software
+authors:
+  - family-names: "Nikiema"
+    given-names: "Pengd-Wende Richard"
+    email: "richmannik@gmail.com"
+date-released: 2026-09-02
+repository-code: "https://github.com/Pengd-wende-Richard42/Gap-to-Target-V1"
+preferred-citation:
+  type: article
+  title: "Measuring Alignment with National Climate Commitments: A Gap-to-Target Indicator for Kyoto and Paris NDC Cycles"
+  authors:
+    - family-names: "NIKIEMA"
+      given-names: "Pengd Wendé Richard"
+  year: 2026
+  journal: "Available at SSRN 6761581"
